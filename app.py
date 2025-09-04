@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, origins=["chrome-extension://fonpmnbkodmahnnjejckklifbfkejona"])
 
 # Placeholder CLIENT_ID
-CLIENT_ID = "691619432775-88lo1pq7oakt87hi5vc5mhc6p01lgs3n.apps.googleusercontent.com"
+CLIENT_ID = "691619432775-c7hivsjtg6u0no0jhouq3lt6ijb9isvs.apps.googleusercontent.com"
 
 @app.route('/get-config', methods=['POST'])
 def get_config():
